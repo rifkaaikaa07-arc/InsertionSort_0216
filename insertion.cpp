@@ -19,22 +19,23 @@ void InputData (){ //procedur input
     cout << endl;
     cout << "==============================================";
     cout << "===========Masukkan Element Array=============";
-    cout << "==============================================";
+    cout << "==============================================" << endl;
 
     for (int i = 0; i < n; i++ )
     {
-    cout << "Data ke-" << (i+1) << ": ";
-    cin >> arr[i];
+        cout << "Data ke-" << (i+1) << ": ";
+        cin >> arr [i];
     }
 }
 
-void insertionsort (){
+void insertionsort (){// procedur insertion sort
     int temp;
     int j;
 
     for (int i = 0; i < n;i++)
     {
-        temp = arr[i];
-        j = i-1;
+        temp = arr [i];
+        j = i - 1;
     }
 }
+
