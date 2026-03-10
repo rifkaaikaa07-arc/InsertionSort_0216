@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int arr [20];       // membuat array dengan panjang data 20
+int arr [20];       // membuat array dengan panjang data 10
 int n;              // membuat variable inputan n
 
-void InputData (){
+void InputData (){ //procedur input
     while (true){
-        cout << "Masukkan Jumlah Data Pada Array : ";
+        cout << "MAsukkan Jumlah Data Pada Array : ";
         cin >> n;
 
         if (n <= 20){
@@ -16,6 +16,10 @@ void InputData (){
             cout << "\nArray Tidak Boleh Lebih Dari 20\n";
         }
     }
+    cout << endl;
+    cout << "==============================================";
+    cout << "===========Masukkan Element Array=============";
+    cout << "==============================================";
 }
-int main (){   
+int main (){
 }
