@@ -63,3 +63,10 @@ void display (){ //procedur display
     }
     cout << endl;
 }
+
+int main (){
+    InputData();
+    insertionsort();
+    display();
+    system( "pause");
+}
